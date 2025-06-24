@@ -128,7 +128,7 @@ h5{
 	color: #fff;
 	background: rgba(255,255,255,0.35);
 }
-a {
+/* a {
 	color: #FFFFFF;
 	text-decoration: none;
 	text-shadow: none;
@@ -137,7 +137,7 @@ a {
 	-ms-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
-}
+} */
 a:hover {
 	color: #b2e7ff;
 	text-decoration: none;
@@ -426,7 +426,7 @@ opacity: .6;
 .banner-container {
 	background-image: url('../images/bg.jpg');
 	background-repeat: repeat;
-	min-height: 775px;
+	min-height: 600px;
 	float:left;
 	background-size: cover;
 	display: inline-block;
@@ -760,10 +760,7 @@ h3{
 .navbar-inverse .navbar-toggle {
 	background-color: #FFD500;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #FFD500;*/
-;
-}
+
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background: #FFD500;
 }
@@ -773,8 +770,7 @@ h3{
 .navbar-inverse .navbar-toggle:hover .icon-bar {
 	background: #fff;
 }
-.navbar-toggle {
-}
+
 .hero-text {
 	color: #676e73;
 	width: 83%;
@@ -804,11 +800,7 @@ h3{
 	padding: 23px;
 	font-size: 45px !important;
 }
-#section-strapline {
-	background: #f00bfff;
-	line-height: 42px;
-	clear: both;
-}
+
 /*----Nav ----*/
 .header .navbar-brand {
 	float: left;
